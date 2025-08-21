@@ -28,7 +28,7 @@
       padding: 1em 0;
     }
 
-    .nav-columns div {
+    .nav-columns a {
       flex: 1 1 20%;
       margin: 0.5em;
       padding: 1em;
@@ -36,6 +36,19 @@
       text-align: center;
       border-radius: 8px;
       box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      color: #004f99;
+      text-decoration: none;
+      font-weight: bold;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: background-color 0.3s, color 0.3s;
+    }
+
+    .nav-columns a:hover {
+      background-color: #004f99;
+      color: #fff;
+      cursor: pointer;
     }
 
     .description {
@@ -62,10 +75,10 @@
   </header>
 
   <section class="nav-columns">
-    <div>Inicio</div>
-    <div>Joanna</div>
-    <div>Cristian</div>
-    <div>Jaque</div>
+    <a href="inicio.html">Inicio</a>
+    <a href="Joanna.html">Joanna</a>
+    <a href="Cristian.html">Cristian</a>
+    <a href="jaque.html">Jaque</a>
   </section>
 
   <section class="description">
